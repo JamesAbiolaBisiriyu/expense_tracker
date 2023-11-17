@@ -11,8 +11,10 @@ import { GlobalProvider } from './components/context/GlobalState';
 function App() {
   return (
     <GlobalProvider>
-      <Header />
       <div className='container'>
+        
+
+      <Header />
         <Balanc />
         <Incomeexpenses />
         <Transactionlist />
