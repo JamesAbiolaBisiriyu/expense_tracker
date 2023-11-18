@@ -30,14 +30,14 @@ const onSubmit = e => {
         <h3>Add new transaction</h3>
       <form onSubmit={ onSubmit }>
         <div className="form-control">
-          <label htmlFor="text">Text</label>
+          <label htmlFor="text">Add Naration of Transaction</label>
           <input type="text" value={text} onChange={(e) => setText(e.target.value)}
            placeholder="Enter text..." />
         </div>
         <div className="form-control">
           <label for="amount"
             >Amount <br />
-            (negative - expense, positive - income)</label
+            (Negative Stands for  Expense, Positive For - Income)</label
           >
           <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)} placeholder="Enter text..." /> 
         </div>
